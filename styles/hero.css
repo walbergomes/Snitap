@@ -224,3 +224,25 @@ section.hero {
 
   }
 }
+
+@media (width <= 430px) {
+  section.hero {
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-inline: auto;
+
+    & h1 {
+      width: 19rem;
+      font-size: 2rem;
+      margin-inline: auto;
+    }
+
+    & h1 div {
+      height: 2.5rem;
+    }
+
+    & .buttons {
+      flex-direction: column-reverse;
+    }
+  }
+}
