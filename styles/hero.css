@@ -343,3 +343,16 @@ section.hero {
     }
   }
 }
+
+@media (width <= 380px) {
+  section.hero {
+    & > div:nth-child(2) {
+      height: 20.5rem;
+
+      img[src*="stars-2"] {
+        top: 50%;
+      }
+    }
+
+  }
+}
