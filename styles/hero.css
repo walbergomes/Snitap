@@ -344,13 +344,13 @@ section.hero {
   }
 }
 
-@media (width <= 380px) {
+@media (width <= 330px) {
   section.hero {
     & > div:nth-child(2) {
       height: 20.5rem;
 
       img[src*="stars-2"] {
-        top: 50%;
+        top: 40%;
       }
     }
 
